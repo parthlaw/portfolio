@@ -22,7 +22,6 @@
   display: flex;
   align-items: center;
 }
-
 .cardImageDiv {
   padding: 20px;
 }
@@ -32,6 +31,7 @@
   border: none;
   border-radius: 10px;
   margin-top: auto;
+  opacity: 1;
 }
 
 .cardText {
@@ -65,11 +65,13 @@ button:hover {
 @media only screen and (max-width: 1024px) {
   .main {
     flex-direction: column;
+    color: ivory;
   }
   .description {
     width: 100%;
   }
   .image {
     width: 100%;
+    opacity: 1;
   }
 }

@@ -16,8 +16,8 @@ function ProjectCard({
     <div className="main" style={{ flexDirection: direction }}>
       <div className="description">
         <div className="cardText">
-          <h1>{title}</h1>
-          <h3>{content}</h3>
+          <h1 style={{ color: "whitesmoke" }}>{title}</h1>
+          <h3 style={{ color: "wheat" }}>{content}</h3>
           <DevIcons className="devicon" stacks={stack} />
           <br />
           <a href={link} target="_blank" rel="noopener noreferrer">
@@ -31,7 +31,6 @@ function ProjectCard({
             <div className="cardImageDiv">
               <img
                 src={require(`../../images/${image}`)}
-                // src={`https://api.apiflash.com/v1/urltoimage?access_key=acefca5c960c4ad7a080fe271936a32c&url=${link}`}
                 alt=""
                 className="cardImage"
               />

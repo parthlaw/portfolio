@@ -4,10 +4,15 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
+import "./css/default.css";
+import "./css/fonts.css";
+import "./css/layout.css";
+import "./css/magnific-popup.css";
+import "./css/media-queries.css";
 ReactDOM.render(
-  <BrowserRouter>
+  <React.StrictMode>
     <App />
-  </BrowserRouter>,
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
