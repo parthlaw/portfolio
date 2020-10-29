@@ -46,7 +46,7 @@ const Resume = () => {
             <div className="twelve columns">
               <b>IIIT Gwalior</b>
               <br />
-              <span>Batchelor of Technology in IT (Second Year Student) </span>
+              <span>Bachelor of Technology in IT (Second Year Student) </span>
             </div>
           </div>
         </div>
