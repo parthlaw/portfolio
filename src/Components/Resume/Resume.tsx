@@ -1,5 +1,4 @@
 import React from "react";
-import Technology from "../Technologies/Technologies";
 import DevIcons from "../DevIcons/DevIcons";
 import { stackTypes } from "../../interfaces/Project";
 const stacks: Array<stackTypes> = [
@@ -29,6 +28,8 @@ const stacks: Array<stackTypes> = [
   "Vercel",
   "WebAssembly",
   "Vue",
+  "GraphQL",
+  "Django"
 ];
 
 const Resume = () => {

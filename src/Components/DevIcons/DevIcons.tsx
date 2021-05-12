@@ -26,6 +26,8 @@ import { ReactComponent as VercelIcon } from "../../Stack/vercel.svg";
 import { ReactComponent as WebAssemblyIcon } from "../../Stack/webassembly.svg";
 import { ReactComponent as VueIcon } from "../../Stack/vue.svg";
 import { ReactComponent as GsapIcon } from "../../Stack/gsap.svg";
+import {ReactComponent as GraphQLIcon} from "../../Stack/graphql.svg"
+import {ReactComponent as DjangoIcon} from "../../Stack/django.svg"
 import { stackTypes } from "../../interfaces/Project";
 
 export default ({
@@ -47,6 +49,8 @@ export default ({
     Vue: <VueIcon fill="#41B883" {...rest} />,
     React: <ReactIcon fill="#61DAFB" {...rest} />,
     NodeJS: <NodejsIcon fill="#339933" {...rest} />,
+    GraphQL:<GraphQLIcon fill="#e535ab" {...rest}/>,
+    Django: <DjangoIcon fill="#609b11" {...rest} />,
     Docker: <DockerIcon fill="#2496ED" {...rest} />,
     Mongo: <MongoIcon fill="#47A248" {...rest} />,
     Gsap: <GsapIcon fill="#228B22" {...rest} />,

@@ -29,6 +29,7 @@ const stacks: Array<stackTypes> = [
   "Vercel",
   "WebAssembly",
   "Vue",
+  "GraphQL"
 ];
 
 export default () => {

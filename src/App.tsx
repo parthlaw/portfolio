@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Components/Home/Home";
 import Nav from "./Components/Nav/Nav";
 import Resume from "./Components/Resume/Resume";
-import tsParticlesConfig from "./data/tsParticles.json";
+import tsParticles from "./data/tsParticles.json";
 import "./App.css";
 import Particles, { IParticlesParams } from "react-tsparticles";
 import Technologies from "./Components/Technologies/Technologies";
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Particles
         className="particles"
-        options={tsParticlesConfig as IParticlesParams}
+        options={tsParticles as IParticlesParams}
       />
       <Nav />
       <Home />

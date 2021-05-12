@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import TextLoop from "react-text-loop";
 function useTypeWord(words: string) {
   const [index, setIndex] = useState(0);
 

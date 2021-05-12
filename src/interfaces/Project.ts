@@ -35,4 +35,6 @@ export type stackTypes =
   | "WebAssembly"
   | "Gsap"
   | "Vue"
-  | "GithubActions";
+  | "GithubActions"
+  | "GraphQL"
+  | "Django";
