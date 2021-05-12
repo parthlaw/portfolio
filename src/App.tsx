@@ -4,7 +4,7 @@ import Nav from "./Components/Nav/Nav";
 import Resume from "./Components/Resume/Resume";
 import tsParticles from "./data/tsParticles.json";
 import "./App.css";
-import Particles, { IParticlesParams } from "react-tsparticles";
+import Particles, { IParticlesParams, RecursivePartial } from "react-tsparticles";
 import Technologies from "./Components/Technologies/Technologies";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
@@ -13,8 +13,7 @@ function App() {
     <div className="App">
       <Particles
         className="particles"
-        options={tsParticles as IParticlesParams}
-      />
+        options={tsParticles as  RecursivePartial<IParticlesParams>}/>
       <Nav />
       <Home />
       <Resume />

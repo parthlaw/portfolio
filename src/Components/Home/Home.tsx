@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/logo.png";
+import resume from "./ParthResume.pdf"
 const Home = () => {
   return (
     <section id="about">
@@ -37,7 +38,7 @@ const Home = () => {
             </div>
             <div className="columns download">
               <p>
-                <a href="" className="button">
+                <a href={resume} className="button" target="blank">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>
