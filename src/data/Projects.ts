@@ -2,15 +2,15 @@ import { projectType } from "../interfaces/Project";
 
 export const projects = [
   {
-    title: "Bako",
+    title: "GOCHAT",
     content: `A realtime private chat application`,
-    link: "https://bako.vercel.app",
+    link: "https://gochat.vercel.app",
     image: "Bako.png",
-    stack: ["JavaScript", "React", "Redux", "NodeJS", "Vercel"],
+    stack: ["JavaScript", "React", "Go", "Vercel","RabbitMQ"],
   } as projectType,
   {
     title: "Vocalo",
-    content: `A colaborative dictonary application`,
+    content: `A collaborative dictionary application`,
     link: "https://vocalo.vercel.app",
     image: "Vocalo.png",
     stack: ["JavaScript", "React", "GraphQL", "NodeJS", "Vercel"],

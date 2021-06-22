@@ -37,4 +37,5 @@ export type stackTypes =
   | "Vue"
   | "GithubActions"
   | "GraphQL"
-  | "Django";
+  | "Django"
+  |"RabbitMQ";

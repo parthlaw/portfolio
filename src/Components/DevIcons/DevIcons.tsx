@@ -28,6 +28,7 @@ import { ReactComponent as VueIcon } from "../../Stack/vue.svg";
 import { ReactComponent as GsapIcon } from "../../Stack/gsap.svg";
 import {ReactComponent as GraphQLIcon} from "../../Stack/graphql.svg"
 import {ReactComponent as DjangoIcon} from "../../Stack/django.svg"
+import {ReactComponent as RabbitMQIcon} from "../../Stack/rabbitmq.svg"
 import { stackTypes } from "../../interfaces/Project";
 
 export default ({
@@ -56,7 +57,7 @@ export default ({
     Gsap: <GsapIcon fill="#228B22" {...rest} />,
     Saas: <SaasIcon fill="#CC6699" {...rest} />,
     Heroku: <HerokuIcon fill="#430098" {...rest} />,
-
+    RabbitMQ:< RabbitMQIcon fill="#E6600D" {...rest}/>,
     Babel: <BabelIcon fill="#F9DC3E" {...rest} />,
 
     Git: <GitIcon fill="#F05032" {...rest} />,
