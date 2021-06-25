@@ -4,7 +4,7 @@ export const projects = [
   {
     title: "GOCHAT",
     content: `A realtime private chat application`,
-    link: "https://gochat.vercel.app",
+    link: "https://gochat.parthlaw.tech",
     image: "Bako.png",
     stack: ["JavaScript", "React", "Go", "Vercel","RabbitMQ"],
   } as projectType,
