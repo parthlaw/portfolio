@@ -58,7 +58,7 @@ const Nav = () => {
         <div className="banner-text">
           <h1 className="responsive-headline">{intro}</h1>
           <h3>
-            I'm a<span> Web Developer and Video Editor</span>
+            I'm a<span> Web Developer and Cloud Engineer</span>
           </h3>
           <hr />
           <ul className="social">

@@ -16,8 +16,7 @@ const Home = () => {
           <h2>About Me</h2>
 
           <p>
-            My name Parth Lawania, I am a Full Stack React developer and Video
-            Editor.Currently I am a second year student at IIIT Gwalior.
+            My name Parth Lawania, I am a Full Stack React developer and Cloud Engineer.Currently I am a second year student at IIIT Gwalior.
           </p>
           <div className="row">
             <div className="columns contact-details">

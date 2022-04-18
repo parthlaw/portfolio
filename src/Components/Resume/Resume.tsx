@@ -62,9 +62,9 @@ const Resume = () => {
         <div className="nine columns main-col">
           <p>
             <b>Web development:</b>HTML,CSS,Javascript,React Js,Vue Js,Next
-            Js,Node Js,Express Js,GraphQl
+            Js,Node Js,Express Js,GraphQl,Golang
             <br />
-            <b>Video Editing:</b>Adobe After Effects, Adobe Premiure Pro
+            <b>Cloud Platforms:</b>Amazon Web Services
           </p>
 
           <div className="bars">
