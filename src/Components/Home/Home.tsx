@@ -37,7 +37,7 @@ const Home = () => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resume} className="button" target="blank">
+                <a href='/resume.pdf' className="button" target="_blank">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>
