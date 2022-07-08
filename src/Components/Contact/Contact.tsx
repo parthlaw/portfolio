@@ -69,7 +69,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <button type="submit" className="submit">
+                <button type="submit" className="submit" disabled>
                   Submit
                 </button>
                 <span id="image-loader">
