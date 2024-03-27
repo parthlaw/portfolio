@@ -61,22 +61,25 @@ const Resume = () => {
 
         <div className="nine columns main-col">
           <p>
-            <b>Web development:</b>HTML,CSS,Javascript,React Js,Vue Js,Next
-            Js,Node Js,Express Js,GraphQl,Golang
+            <b>Languages:</b> Java, Golang, Javascript, Typescript, Python, C++, C
             <br />
-            <b>Cloud Platforms:</b>Amazon Web Services
+            <b>Tools and Frameworks:</b> ReactJs, NextJs, Angular, NodeJs, Express, Djagno, Flask, NestJs, Kubernetes, Docker, GIT, RabbitMQ
+            <br />
+            <b>Databases:</b> PostgreSQL, MySQL, MongoDB, Redis, Snowflake
+            <br />
+            <b>Platforms:</b> Linux, Amazon Web Services (AWS), Google Cloud Platform (GCP) Firebase, Vercel, Heroku
           </p>
 
-          <div className="bars">
-            <ul className="skills">
-              <strong style={{ fontSize: "30px" }}>
-                Technologies I am Aware Of
-              </strong>
-            </ul>
-          </div>
+          {/* <div className="bars"> */}
+          {/*   <ul className="skills"> */}
+          {/*     <strong style={{ fontSize: "30px" }}> */}
+          {/*       Technologies I am Aware Of */}
+          {/*     </strong> */}
+          {/*   </ul> */}
+          {/* </div> */}
         </div>
       </div>
-      <DevIcons className="devicon-large" stacks={stacks} />
+      {/* <DevIcons className="devicon-large" stacks={stacks} /> */}
     </section>
   );
 };

@@ -16,7 +16,7 @@ const Home = () => {
           <h2>About Me</h2>
 
           <p>
-            My name Parth Lawania, I am a Full Stack React developer and Cloud Engineer.Currently I am a second year student at IIIT Gwalior.
+            Experienced software developer proficient in Java, Golang, JavaScript, and more, with a strong focus on backend development and cloud infrastructure. Demonstrated expertise in building scalable solutions, optimizing system performance, and accelerating project delivery. Skilled in microservices architecture, real-time communication, and dynamic systems development. Known for innovative problem-solving and effective collaboration across teams. Passionate about leveraging cutting-edge technologies to deliver impactful solutions and continuously expanding skill set.
           </p>
           <div className="row">
             <div className="columns contact-details">
@@ -25,9 +25,7 @@ const Home = () => {
                 <span>Parth Lawania</span>
                 <br />
                 <span>
-                  Chanakya Puri
-                  <br />
-                  Agra U.P., 282010
+                  Bangalore
                 </span>
                 <br />
                 <span>+916397847348</span>
